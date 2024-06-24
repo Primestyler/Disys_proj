@@ -7,7 +7,7 @@ It is a docker-compose project that sets up five databases and a queue. One data
 
 ### System Architecture
 Below is a graphical representation of the system
-![image](https://cdn.discordapp.com/attachments/536906295064789006/1253571068086587494/Screenshot_37.png?ex=66765688&is=66750508&hm=de7321777aa58756bdddf40863c567e9adb602d588a5f8ea5c6919a516607b5d&)
+![image](https://cdn.discordapp.com/attachments/536906295064789006/1253571068086587494/Screenshot_37.png?ex=667af3c8&is=6679a248&hm=62826b08bc968099c6d30e59748b6f6c3f1e96fd7020fb77650fc11f0042a8e3&)
 
 ### UML
 
@@ -16,7 +16,7 @@ Below is a graphical representation of the system
 ### Entity Relationship Diagram
 The following Entity Relationship Diagram (ERD) illustrates the tables of the database used in the Fuel Station Data Collector system and the relationships between these tables.
 
-![image](https://cdn.discordapp.com/attachments/536906295064789006/1253577906937004052/Screenshot_36.png?ex=66765ce7&is=66750b67&hm=ef799bd0ba0430b6a1d05f041e0ada5f6119feb14ff0edd0b0aa639d116dbd25&)
+![image](https://cdn.discordapp.com/attachments/536906295064789006/1253577906937004052/Screenshot_36.png?ex=667afa27&is=6679a8a7&hm=70b06d5e8b33a085d5e9519f3b8f7895a2657d409f6f77bcce7b0ff65c7439a0&)
 
 The customer table contains all relevant customer data and is connected to the charge table via the customer_id field. The charge table records information about each charging session, including the amount of energy used (kWh) and a unique identifier for tracking the record. The station table holds information about each charging station and is connected to the charge table via the station_id field. The structure of the station table is consistent across all station databases.
 ## Components Description
@@ -25,7 +25,7 @@ The customer table contains all relevant customer data and is connected to the c
 
 The Station JavaFX Application is the user interface where customers can enter their customer ID. After entering the ID, a list of all corresponding invoices is displayed. The customer can select an invoice to be generated as a PDF.
 
-![image](https://cdn.discordapp.com/attachments/536906295064789006/1253593556313182320/Screenshot_38.png?ex=66766b7a&is=667519fa&hm=3d013f4397f90c8d37e426bbae32f07dcfc5700dd5734bb357a4e36f936fe140&)
+![image](https://cdn.discordapp.com/attachments/536906295064789006/1253593556313182320/Screenshot_38.png?ex=667b08ba&is=6679b73a&hm=9011572a387a38082a68282c8c8b8fba71552b06b18f49022446ddc717ebc80c&)
 
 
 ### Spring Boot Application
